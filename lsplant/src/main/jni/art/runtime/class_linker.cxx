@@ -173,7 +173,7 @@ public:
         if (sdk_int >= __ANDROID_API_N__ && sdk_int < __ANDROID_API_T__) {
             handler(ShouldUseInterpreterEntrypoint_);
         }
-        //这里修改了  11
+        //这里修改了  111
         // bool method_FixupStaticTrampolines_hooked = handler(FixupStaticTrampolinesWithThread_,
 		// 		FixupStaticTrampolines_, FixupStaticTrampolinesRaw_);
         // if (!method_FixupStaticTrampolines_hooked) LOGD("method FixupStaticTrampolines is inlined");
