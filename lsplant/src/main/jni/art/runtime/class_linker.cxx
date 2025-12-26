@@ -187,7 +187,7 @@ public:
 
         if (sdk_int >= __ANDROID_API_R__) {
             if constexpr (kArch != Arch::kX86 && kArch != Arch::kX86_64) {
-                //&&
+                //&& 
                 //    !method_FixupStaticTrampolines_hooked
                 if (!handler(AdjustThreadVisibilityCounter_, MarkVisiblyInitialized_) ) {
                     // should hook MarkVisiblyInitialized if FixupStaticTrampolines is inlined
