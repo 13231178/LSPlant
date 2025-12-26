@@ -3,7 +3,7 @@
 #include <android/log.h>
 
 #ifndef LOG_TAG
-#define LOG_TAG "LSPlant"
+#define LOG_TAG "LPPlant"
 #endif
 
 #ifdef LOG_DISABLED
